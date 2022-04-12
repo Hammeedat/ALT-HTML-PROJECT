@@ -7,28 +7,32 @@
 <body>
 <p> Registration Form </p>
 <form>
-Firstname:<br>
-<input type="text" name="firstname">
-<br>
-Lastname:<br>
-<input type="text" name="lastname">
-<br>
-SELECT GENDER
-<br>
-<input type="radio" name="gender" id="male">
-<label for="male">Male</label><br>
-<input type="radio" name="gender" id="female">
-<label for-"female">Female</label><br>
-<input type="radio" name="gender" id="others">
-<label for="others">Others</label>
-<b>SELECT SUBJECT</b>
-<br>
-<input type="checkbox" name="subject" id="maths">
-<label for="maths">Maths</label>
-<input type="checkbox" name="subject" id="science">
-<label for="science">Science</label>
-<input type="checkbox" name="subject" id="english">
-<label for="english">English</label>
+ Firstname:<br>
+ <input type="text" name="firstname">
+ <br>
+ Lastname:<br>
+ <input type="text" name="lastname">
+ <br>
+ SELECT GENDER
+ <br>
+ <input type="radio" name="gender" id="male">
+ <label for="male">Male</label><br>
+ <input type="radio" name="gender" id="female">
+ <label for-"female">Female</label><br>
+ <input type="radio" name="gender" id="others">
+ <label for="others">Others</label>
+ <b>SELECT SUBJECT</b>
+ <br>
+ <input type="checkbox" name="subject" id="maths">
+ <label for="maths">Maths</label>
+ <input type="checkbox" name="subject" id="science">
+ <label for="science">Science</label>
+ <input type="checkbox" name="subject" id="english">
+ <label for="english">English</label>
+ <label for="Description">Description:</label>
+ <textarea rows="5" cols="50" name="Description"
+			      id="Description2></textarea>
+ <input type="submit" value="Submit">
 </form>
 </body>
 </html>
