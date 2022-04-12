@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf -8">
+    <title> A Survey form </title>
+</head>
+<body>
+<p> Registration Form </p>
+<form>
+Firstname:<br>
+<input type="text" name="firstname">
+<br>
+Lastname:<br>
+<input type="text" name="lastname">
+<br>
+SELECT GENDER
+<br>
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label><br>
+<input type="radio" name="gender" id="female">
+<label for-"female">Female</label><br>
+<input type="radio" name="gender" id="others">
+<label for="others">Others</label>
+<b>SELECT SUBJECT</b>
+<br>
+<input type="checkbox" name="subject" id="maths">
+<label for="maths">Maths</label>
+<input type="checkbox" name="subject" id="science">
+<label for="science">Science</label>
+<input type="checkbox" name="subject" id="english">
+<label for="english">English</label>
+</form>
+</body>
+</html>
